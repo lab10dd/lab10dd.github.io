@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    background-image: radial-gradient(ellipse at center center, gray, white);
+}
+photo1 img {
+    border: 25px solid;
+    border-image: url(Рамка.jpg) 82 stretch;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+photo2 img {
+    border-color: red yellow green blue;
+    border-style: dotted dashed double outset;
+    border-width: 7px 9px 8px 10px;   
+    position: absolute;
+    top: 225px;
+    left: 550px;
+}
+photo3 img {
+    border-color: black;
+    border-style: outset;
+    border-width: 20px;
+    border-radius: 10px 20px 30px 40px;
+    position: absolute;
+    top: 400px;
+    left: 25px;
+}
